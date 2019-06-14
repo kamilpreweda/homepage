@@ -4,16 +4,22 @@ body {
     margin: 0 auto;
 }
 
-h1 {
+.heading {
     color: tomato;
 }
 
-h2 {
+.about__heading,
+.diary__heading {
     color: #1460AA;
 }
 
-p {
+.about__paragraph,
+.diary__paragraph {
     color: darkblue;
+}
+
+.diary__paragraph--color {
+    color: red;
 }
 
 .header {
