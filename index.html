@@ -10,22 +10,34 @@
 </head>
 
 <body>
-    <header class='links'>
-        <a href="week1.html">Tydzień 1</a>
-        <a href="week2.html">Tydzień 2</a>
-        <a href="week3.html">Tydzień 3</a>
+    <header class='navigation'>
+        <a class='navigation__link' href="week1.html">Tydzień 1</a>
+        <a class='navigation__link' href="week2.html">Tydzień 2</a>
+        <a class='navigation__link' href="week3.html">Tydzień 3</a>
     </header>
-    <main>
+    <main id='top' class='main'>
         <header class='header'>
-            <h1>Kamil Preweda - strona domowa</h1>
+            <h1 class='heading'>Kamil Preweda - strona domowa</h1>
         </header>
-        <section class='section'>
-            <h2>Kim jestem?</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo impedit nesciunt eius reiciendis optio quia
+        <section class='about'>
+            <div class="box">Test</div>
+            <h2 class='about__heading'>Kim jestem?</h2>
+            <p class='about__paragraph'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo impedit nesciunt
+                eius reiciendis optio quia
                 veniam veritatis dicta, molestias laborum excepturi officia. Asperiores vero exercitationem quos iusto
                 maxime rem aperiam?</p>
             <section class='js'>
-
+            </section>
+            <section class="diary" id="pamietniczek">
+                <h2 class="diary__heading">Pamiętniczek</h2>
+                <section>
+                    <h3 class='diary__heading--third'>Jak stworzyć prawidłowego HTML-a?</h3>
+                    <p class="diary__paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae quas ex
+                        aspernatur vero et quibusdam voluptatibus amet molestiae. Commodi, necessitatibus illo.
+                        Architecto consequuntur, ipsam autem recusandae explicabo ipsum ad vero.</p>
+                    <a href="#pamietniczek" class="diary__link">Przejdź do pamiętniczka</a>
+                    <p class="diary__paragraph diary__paragraph--color">Testuję modyfikator</p>
+                </section>
             </section>
     </main>
     <footer class='footer'>
