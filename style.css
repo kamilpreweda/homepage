@@ -1,27 +1,27 @@
 body {
-    background-color: #fefefe;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 6%, rgba(0, 212, 255, 1) 100%);
     max-width: 80%;
     margin: 0 auto;
+    font-family: arial;
+    color: white;
 }
 
-.heading {
-    color: tomato;
+.diary__link {
+    color: white;
 }
 
-.about__heading,
-.diary__heading {
-    color: #1460AA;
+.navigation {
+    display: flex;
+    justify-content: center;
+    margin: 16px auto 0;
+    max-width: 50vw;
+    width: 100%;
+    align-items: center;
 }
 
-.about__paragraph,
-.diary__paragraph {
-    color: darkblue;
-}
-
-.diary__paragraph--color {
-    color: red;
-}
-
-.header {
-    background-color: violet;
+.navigation__link {
+    text-decoration: none;
+    margin: 0 16px;
+    color: white;
 }
