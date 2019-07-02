@@ -10,12 +10,13 @@
 </head>
 
 <body>
-    <header class='navigation'>
+    <nav class='navigation navigation__js'>
         <a class='navigation__link' href="week1.html">Tydzień 1</a>
         <a class='navigation__link' href="week2.html">Tydzień 2</a>
         <a class='navigation__link' href="week3.html">Tydzień 3</a>
-    </header>
-    <main id='top' class='main'>
+    </nav>
+    <button class="navigation__switcher navigation__switcher--js" aria-label="Open the menu">☰</button>
+    <main id='top' class='grid'>
         <header class='header'>
             <h1 class='heading'>Kamil Preweda - strona domowa</h1>
         </header>
@@ -28,17 +29,18 @@
                 maxime rem aperiam?</p>
             <section class='js'>
             </section>
-            <section class="diary" id="pamietniczek">
-                <h2 class="diary__heading">Pamiętniczek</h2>
-                <section>
-                    <h3 class='diary__heading--third'>Jak stworzyć prawidłowego HTML-a?</h3>
-                    <p class="diary__paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae quas ex
-                        aspernatur vero et quibusdam voluptatibus amet molestiae. Commodi, necessitatibus illo.
-                        Architecto consequuntur, ipsam autem recusandae explicabo ipsum ad vero.</p>
-                    <a href="#pamietniczek" class="diary__link">Przejdź do pamiętniczka</a>
-                    <p class="diary__paragraph diary__paragraph--color">Testuję modyfikator</p>
-                </section>
+        </section>
+        <section class="diary" id="pamietniczek">
+            <h2 class="diary__heading">Pamiętniczek</h2>
+            <section>
+                <h3 class='diary__heading--third'>Jak stworzyć prawidłowego HTML-a?</h3>
+                <p class="diary__paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae quas ex
+                    aspernatur vero et quibusdam voluptatibus amet molestiae. Commodi, necessitatibus illo.
+                    Architecto consequuntur, ipsam autem recusandae explicabo ipsum ad vero.</p>
+                <a href="#pamietniczek" class="diary__link">Przejdź do pamiętniczka</a>
+                <p class="diary__paragraph diary__paragraph--color">Testuję modyfikator</p>
             </section>
+        </section>
     </main>
     <footer class='footer'>
         Strona domowa Kamila Preweda, wszystkie treści są efektem tworzenia szkolenia WTF: Co Ten Frontend
@@ -52,6 +54,7 @@
 
         document.querySelector('.js').innerHTML = 'Dodano za pomocą JavaScript';
     </script>
+    <script src="main.js"></script>
 </body>
 
 </html>
